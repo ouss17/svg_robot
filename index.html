@@ -8,13 +8,11 @@
     <title>Document</title>
 </head>
 
-<body>
+<body style="background-color:#171e3a;">
     <svg id="svg_screen" xmlns="http://www.w3.org/2000/svg"
-        style="position: absolute; top:10%; right:50%; transform:translateX(50%);" viewBox="0 0 600 650">
+        style="position: absolute; top:10%; right:50%; transform:translateX(50%);width:40%;" viewBox="0 0 600 650">
         <ellipse class="shadow" cx="272" cy="580" rx="100" ry="30" fill="rgba(0,0,0,0.06)" />
         <g class="all">
-
-
             <ellipse cx="272" cy="435" rx="45" ry="15" fill="none" stroke="#308bf9" stroke-width="2" opacity=1>
                 <animate id="ellipse1Place" attributeName="cy" from="435" to="495" dur="1500ms"
                     begin="0ms;ellipse1Place.end" />
@@ -25,7 +23,6 @@
                 <animate id="ellipse1Opacity" attributeName="opacity" from="1" to="0" dur="1500ms"
                     begin="0ms;ellipse1Place.end" />
             </ellipse>
-            <!-- <ellipse cx="280" cy="435" rx="60" ry="20" fill="none" stroke="#308bf9" stroke-width="2"> -->
             <ellipse cx="272" cy="435" rx="45" ry="15" fill="none" stroke="#308bf9" stroke-width="2" opacity=1>
                 <animate id="ellipse2Place" attributeName="cy" from="435" to="495" dur="1500ms"
                     begin="400ms;ellipse2Place.end" />
@@ -36,7 +33,6 @@
                 <animate id="ellipse2Opacity" attributeName="opacity" from="1" to="0" dur="1500ms"
                     begin="400ms;ellipse2Place.end" />
             </ellipse>
-            <!-- <ellipse cx="280" cy="465" rx="75" ry="25" fill="none" stroke="#308bf9" stroke-width="2"> -->
             <ellipse cx="272" cy="435" rx="45" ry="15" fill="none" stroke="#308bf9" stroke-width="2" opacity=1>
                 <animate id="ellipse3Place" attributeName="cy" from="435" to="495" dur="1500ms"
                     begin="800ms;ellipse3Place.end" />
@@ -48,12 +44,8 @@
                     begin="800ms;ellipse3Place.end" />
             </ellipse>
             <g class="footer">
-                <!-- <polygon points="240,409 260,429 290,429 310,409" rx="17.5" ry="17.5" fill="rgb(247,184,49)"
-                    stroke="rgb(247,184,49)" stroke-width="19" stroke-linejoin="round" /> -->
                 <circle cx="272" cy="370" r="60" fill="rgb(255,159,64)" stroke="none" stroke-width="1" />
                 <circle cx="272" cy="390" r="40" fill="rgb(247,184,49)" stroke="none" stroke-width="1" />
-                <!-- <polygon points="240,409 270,409 255,425 260,429" rx="17.5" ry="17.5" fill="rgb(255,159,64)"
-                    stroke="rgb(255,159,64)" stroke-width="19" stroke-linejoin="round" /> -->
                 <circle cx="285" cy="405" r="10" fill="rgb(251,217,106)" stroke="none" stroke-width="1" />
                 <polygon rx="17.5" ry="17.5" fill="rgb(49,189,107)" stroke="rgb(49,189,107)" stroke-width="19"
                     stroke-linejoin="round" points="195,354 215,374 330,374 345,354" />
@@ -68,8 +60,6 @@
                     <polygon points="364,204 467,299 462,319 376,289" rx="17.5" ry="17.5" fill="rgb(111,120,121)"
                         stroke="rgb(111,120,121)" stroke-width="10" stroke-linejoin="round" />
                 </g>
-                <!-- <rect width="225" height="200" rx="17.5" ry="17.5" x=161 y=189 fill="rgb(197,213,215)" stroke="none"
-                    stroke-width="1" /> -->
                 <polygon points="190,195 350,195 370,306 350,345 190,345 170,306" rx="17.5" ry="17.5"
                     fill="rgb(197,213,215)" stroke="rgb(197,213,215)" stroke-width="19" stroke-linejoin="round" />
                 <g class="buttons">
@@ -82,7 +72,6 @@
                     <polygon class="left-noeud" points="220,195 250,195 225,220 215,207" rx="17.5" ry="17.5"
                         fill="rgb(49,189,107)" stroke="rgb(49,189,107)" stroke-width="19" stroke-linejoin="round">
                     </polygon>
-                    <!-- <circle class="center-noeud" cx="265" cy="195" r="20" fill="rgb(49,189,107)" stroke="none" stroke-width="1"></circle> -->
                     <polygon class="right-noeud" points="285,195 315,195 325,207 310,220" rx="17.5" ry="17.5"
                         fill="rgb(49,189,107)" stroke="rgb(49,189,107)" stroke-width="19" stroke-linejoin="round">
                     </polygon>
@@ -94,7 +83,8 @@
                     </path>
                 </g>
                 <rect width="3" height="76" x=266 y=279 fill="rgb(111,120,121)" stroke="none" stroke-width="1" />
-                <polygon width="5" height="5" points="165,280 190,340 349,340 374,280 374,274 348,338 192,338 165,274" fill="rgb(111,120,121)" stroke="rgb(111,120,121)" stroke-width="1" stroke-linejoin="round" />
+                <polygon width="5" height="5" points="165,280 190,340 349,340 374,280 374,274 348,338 192,338 165,274"
+                    fill="rgb(111,120,121)" stroke="rgb(111,120,121)" stroke-width="1" stroke-linejoin="round" />
             </g>
             <g class="head">
                 <g class="ear left-ear">
@@ -112,7 +102,6 @@
                     <circle cx="424" cy="120" r="15" fill="rgb(247,184,49)" />
                     <circle cx="428" cy="115" r="5" fill="rgb(251,217,106)" />
                 </g>
-                <!-- <rect width="200" height="100" rx="17.5" ry="17.5" x=173 y=0 fill="rgb(111,120,121)" stroke="none" stroke-width="1" /> -->
                 <rect width="200" height="120" rx="17.5" ry="17.5" x=170 y=60 fill="rgb(197,213,215)" stroke="none"
                     stroke-width="1" />
                 <rect height="75" rx="17.5" ry="17.5" fill="rgb(21,52,66)" stroke="none" stroke-width="1" y="92" x="190"
@@ -122,22 +111,15 @@
                         ry="15" fill="white" stroke="none" stroke-width="1" />
                     <ellipse class="eye" style="filter:drop-shadow(1px 1px 10px white);" cx="325" cy="120" rx="7"
                         ry="15" fill="white" stroke="none" stroke-width="1" />
-                    <!-- <rect class="mouth" width="20" height="20" x=260 y=140 fill="rgb(21,52,66)" stroke="rgb(21,52,66)"
-                    stroke-width="3">
-                    <animate id="anim1" attributeName="fill" from="rgb(21,52,66)" to="red" dur="500ms"
-                        begin="0ms;anim2.end" />
-                    <animate id="anim2" attributeName="fill" from="red" to="rgb(21,52,66)" dur="500ms"
-                        begin="anim1.end" />
-                </rect> -->
                     <polygon points="250,130 290,130 285,150 255,150" rx="17.5" ry="17.5" fill="red" stroke="red"
-                        stroke-width="10" stroke-linejoin="round">
-                        <animate id="anim1" attributeName="stroke" from="rgb(21,52,66)" to="red" dur="500ms"
+                        stroke-width="3" stroke-linejoin="round">
+                        <!-- <animate id="anim1" attributeName="stroke" from="rgb(21,52,66)" to="red" dur="500ms"
                             begin="0ms;anim2.end" />
                         <animate id="anim2" attributeName="stroke" from="red" to="rgb(21,52,66)" dur="500ms"
-                            begin="anim1.end" />
-                        <animate id="anim3" attributeName="fill" from="rgb(21,52,66)" to="red" dur="500ms"
+                            begin="anim1.end" /> -->
+                        <animate id="anim1" attributeName="fill" from="rgb(21,52,66)" to="red" dur="500ms"
                             begin="0ms;anim2.end" />
-                        <animate id="anim4" attributeName="fill" from="red" to="rgb(21,52,66)" dur="500ms"
+                        <animate id="anim2" attributeName="fill" from="red" to="rgb(21,52,66)" dur="500ms"
                             begin="anim1.end" />
                     </polygon>
                 </g>
